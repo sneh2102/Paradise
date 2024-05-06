@@ -1,0 +1,271 @@
+main{
+    position: relative;
+    background-color: #353;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.parallax{
+    pointer-events: none;
+    transition: 0.45s cubic-bezier( 0.07, 0.52, 0.39, 1 );
+}
+
+.bg-img{
+    position: absolute;
+    width: 2500px;
+    top: calc(50% - 300px);
+    left: calc(50% - 10px);
+    z-index: 1;
+}
+.fog-7{
+    position: absolute;
+    width: 1300px;
+    top: calc(50% - 50px);
+    left: calc(50% + 130px);
+    z-index: 2;
+}
+.mountain-10{
+    position: absolute;
+    width: 700px;
+    top: calc(50% + 50px);
+    left: calc(50% + 170px);
+    z-index: 3;
+}
+.fog-6{
+    position: absolute;
+    width: 1200px;
+    top: calc(50% + 100px);
+    left: calc(50% + 200px);
+    z-index: 4;
+}
+.mountain-9{
+    position: absolute;
+    width: 320px;
+    top: calc(50% + 100px);
+    left: calc(50% - 400px);
+    z-index: 5;
+}
+.mountain-8{
+    position: absolute;
+    width: 600px;
+    top: calc(50% + 120px);
+    left: calc(50% - 180px);
+    z-index: 6;
+}
+.fog-5{
+    position: absolute;
+    width: 430px;
+    top: calc(50% + 80px);
+    left: calc(50% - 300px);
+    z-index: 7;
+}
+.mountain-7{
+    position: absolute;
+    width: 430px;
+    top: calc(50% + 80px);
+    left: calc(50% + 250px);
+    z-index: 8;
+}
+.text{
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+    top: calc(50% - 40px);
+    pointer-events: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.text h2{
+    font-weight: 100;
+    font-size: 5.8rem;
+    line-height: 0.88;
+}
+.text h1{
+    font-weight: 700;
+    font-size: 5.5rem;
+    line-height: 0.88;
+}
+.mountain-6{
+    position: absolute;
+    width: 400px;
+    top: calc(50% + 100px);
+    left: calc(50% + 530px);
+    z-index: 10;
+}
+.fog-4{
+    position: absolute;
+    width: 400px;
+    top: calc(50% + 160px);
+    left: calc(50% + 180px);
+    z-index: 11;
+}
+.mountain-5{
+    position: absolute;
+    width: 400px;
+    top: calc(50% + 230px);
+    left: calc(50% + 100px);
+    z-index: 12;
+}
+.fog-3{
+    position: absolute;
+    width: 700px;
+    top: calc(50% + 150px);
+    left: calc(50% - 390px);
+    z-index: 13;
+}
+.mountain-4{
+    position: absolute;
+    width: 600px;
+    top: calc(50% + 200px);
+    left: calc(50% - 300px);
+    z-index: 14;
+}
+.mountain-3{
+    position: absolute;
+    width: 400px;
+    top: calc(50%  );
+    left: calc(50% + 700px);
+    z-index: 15;
+}
+.fog-2{
+    position: absolute;
+    width: 600px;
+    top: calc(50% + 200px);
+    left: calc(50% + 400px);
+    z-index: 16;
+}
+.mountain-2{
+    position: absolute;
+    width: 500px;
+    top: calc(50% + 150px);
+    left: calc(50% + 390px);
+    z-index: 17;
+}
+.mountain-1{
+    position: absolute;
+    width: 500px;
+    top: calc(50% + 100px);
+    left: calc(50% - 600px);
+    z-index: 18;
+}
+
+.sun-rays{
+    position: absolute;
+    z-index: 19;
+    top: 0;
+    right: 0;
+    width: 600px;
+    pointer-events: none;
+}
+.black-shadow{
+    position: absolute;
+    z-index: 20;
+    top: 1000px;
+    right: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.fog-1{
+    position: absolute;
+    width: 600px;
+    top: calc(50% + 300px);
+    left: calc(50% + 530px);
+    z-index: 21;
+}
+
+.vignette{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%,rgba(0,0,0,0.7));
+    pointer-events: none;
+}
+.butt, .butt:link, .butt:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2% 4%;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 4rem; }
+  
+  .butt:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+    .butt:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; }
+  
+  .butt:active {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  
+  .btn--white {
+    background-color: #fff;
+    color: #777; }
+    .butt--white::after {
+      background-color: #fff; }
+  
+  .btn--green {
+    background-color: #55c57a;
+    color: #fff; }
+    .butt--green::after {
+      background-color: #55c57a; }
+  
+  .butt::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s; }
+  
+  .btn--animated {
+    animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards; }
+  
+
+@media (max-width: 1100px){
+    .text h1{
+        font-size: 4.8rem;
+    }
+    .text h2 {
+        font-size: 4.7rem;
+    }
+}
+@media (max-width: 725px){
+    .text h1{
+        font-size: 5rem;
+        line-height: 1.1;
+    }
+    .text h2 {
+        font-size: 4.1rem;
+        line-height: 1.1;
+    }
+}
+@media (max-width: 520px){
+    .text h1{
+        font-size: 3.3rem;
+        line-height: 1.1;
+    }
+    .text h2 {
+        font-size: 2.6rem;
+        line-height: 1.1;
+    }
+}
+

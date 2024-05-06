@@ -1,0 +1,26 @@
+{
+  "name": "paradise-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && node index.js",
+    "start-local": "set NODE_ENV=local && node index.js",
+    "start-dev": "set NODE_ENV=dev nodemon && index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.1",
+    "mongodb": "^4.1.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
