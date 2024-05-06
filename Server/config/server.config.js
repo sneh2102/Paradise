@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const env = "dev";
-const fbase= process.env.FIREBASE_ACCOUNT_INFO;
+// const fbase= process.env.FIREBASE_ACCOUNT_INFO;   // This is the firebase account info
   
 
 const app = {
