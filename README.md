@@ -30,8 +30,8 @@ Here's a preview of what the Paradise travel booking site looks like:
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Installation & Setup](#installation--setup)
+3. [Dependencies](#dependencies)
+4. [Installation & Setup](#installation-and-setup)
 
 ## Project Overview
 Paradise is a MERN stack-based travel booking platform designed for trekking. It allows administrators to create, activate/deactivate, manage plans, set prices, manage dates, and create discount coupons. Managers can manage plans but cannot create new ones. Users can browse and book available plans for trekking.
@@ -83,7 +83,7 @@ Paradise is a MERN stack-based travel booking platform designed for trekking. It
 
 
 
-## Installation and Development
+## Installation and Setup
 
 Paradise requires [Node.js](https://nodejs.org/) to run.
 
